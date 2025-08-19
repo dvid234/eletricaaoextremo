@@ -3,14 +3,14 @@ body{
   padding:0;
   margin:0;
   background-color: rgb(255, 255, 255);
-  background-image: url("https://cdn.creazilla.com/digital-illustrations/1719878/background-blue-background-blue-design-illustration-xl.png");
+  background-image: url("background.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 
 .body1 {
-  background-image: url("https://cdn.creazilla.com/digital-illustrations/1719878/background-blue-background-blue-design-illustration-xl.png");
+  background-image: url("background.png");
   min-height: 900px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
