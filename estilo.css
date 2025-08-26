@@ -6,7 +6,7 @@ body{
   background-image: url("background.png");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .body1 {
@@ -319,3 +319,26 @@ a {
  .pagetitle{ 
   color: white;
  }
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #ff6600; /* cor do rodapé */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
