@@ -1,45 +1,50 @@
+
+/* ==================================================================
+    Estilo Para= Design das Letras e Plano de Fundo
+   ================================================================== */
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
   background-color: rgb(255, 255, 255);
   background-image: url("background.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* CENTRALIZAR IMAGEM */
+  background-repeat: no-repeat; /* NÃO REPETIR A IMAGEM  */
   background-size: 100% 100%;
 }
 
+/* ==================================================================
+    Estilo Para= Classe ".body1" ( EXIBIÇÃO DE PLANO DE FUNDO EM TODA ALTURA )
+   ================================================================== */
 .body1 {
   background-image: url("background.png");
   min-height: 900px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* CENTRALIZAR IMAGEM */
+  background-repeat: no-repeat; /* NÃO REPETIR IMAGEM */
   background-size: cover;
   
 }
 
-
-/* Global */
+/* ==================================================================
+    Estilo Para= QUADROS BRANCOS
+   ================================================================== */
 .container{
   width:90%;
   margin:auto;
   overflow:hidden;
 }
 
+/* ==================================================================
+    Estilo Para= LISTA ( TIPO: DESORDENADA )
+   ================================================================== */
 ul{
   margin:0;
   padding:0;
 }
 
-.button_1{
-  height:38px;
-  background:#e8491d;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
-
+/* ==================================================================
+    Estilo Para= BLOCO DE CONTEÚDO
+   ================================================================== */
 .dark{
   padding:50px;
 background:#35424a;
@@ -49,7 +54,10 @@ background:#35424a;
 
 }
 
-/* Header **/
+
+/* ==================================================================
+     Estilo Para= DESIGN DAS ABAS DO SITE
+   ================================================================== */
 header{
   background:#35424a;
   color:white  ;
@@ -97,8 +105,9 @@ header a:hover{
 
 
 
-
-/* Showcase */
+/* ==================================================================
+    Estilo Para= IMAGEM DA TELA INICIAL
+   ================================================================== */
 #showcase{
   min-height:700px;
   background:url("https://www.weg.net/weghome/wp-content/uploads/2018/02/eletricidade.jpg") no-repeat;
