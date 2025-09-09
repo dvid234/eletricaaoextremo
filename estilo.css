@@ -257,7 +257,7 @@ a {
   color: black;
 }
 
-.h1audio{
+.h1titulo{
 color: white;
 }
 
@@ -317,10 +317,6 @@ color: white;
   .color {
     color: white;
     font-size: 50px;
-  }
-  
-  .pagetitle{ 
-    color: white;
   }
   
   body {
